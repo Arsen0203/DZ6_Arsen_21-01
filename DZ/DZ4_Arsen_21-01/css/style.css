@@ -1,0 +1,66 @@
+#coordinates {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+
+
+/*TrafficLight*/
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.block {
+    height: 600px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #8C1B1B, #490E0E)
+}
+
+.light {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #B8B8B8;
+}
+
+.light:hover {
+    cursor: pointer;
+}
+
+.stick {
+    position: absolute;
+    bottom: -56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 30px;
+    height: 50px;
+    border: 3px solid black;
+    border-top: 3px solid #490E0E;
+    border-bottom: 3px solid #490E0E;
+    background: #490E0E;
+}
